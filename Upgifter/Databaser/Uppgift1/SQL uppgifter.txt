@@ -1,0 +1,18 @@
+1 a; Select  * from test2 where förnamn LIKE 'tt%';
+  b; Select förnamn from test2 where eftenamn is null;
+  c: Select * from test förnamn LIKE 'k%';
+  d: Select förnamn from test2 where ålder<13;
+  e: select efternamn from test;
+
+
+ 4 a: Select * from städer where stad='Dalarna';
+   b: select * form städer where invånare>50000;
+   c: select * from städer where invånare>200000;
+   d: select * from städer where postkod LIKE '4%';
+   e: select * from städer where län='Västra Götaland';
+   f: select * from städer where kommun LIKE 'A%';
+   g: select * from städer where invånare < 500000;
+
+4  a: select * from städer order by invånare;
+   b: select * from städer order by stad;
+   c: select * from städer order by postkod desc;
